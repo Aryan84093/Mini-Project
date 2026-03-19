@@ -121,6 +121,9 @@
     margin:10px;
     margin-left: 50px;
 }
+.card:hover{
+    box-shadow: 4px 4px 8px rgb(52, 27, 27);
+}
 img{
     width: 100%;
     border-radius: 25px;
