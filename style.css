@@ -13,7 +13,8 @@
 .btn_one i{
     font-size: 30px;
     font-weight: 700;
-    position: fixed;
+    position:absolute;
+    top:10px;
     line-height: 60px;
     /* display: none; */
     cursor: pointer;
@@ -23,10 +24,11 @@
 }
 .sidebar_menu{
     position: fixed;
+    top:15px;
     left:-300px;
    box-shadow: 3px 3px 6px rgb(240, 160, 160);
     height: 100vh;
-    width:260px;
+    width:220px;
     transition: all 0.3s linear;
 }
 .sidebar_menu .logo{
@@ -47,7 +49,7 @@
     font-size: 20px;
     font-weight: 700;
     position: absolute;
-    left:230px;
+    left:190px;
     top:8px;
     opacity: 0.5;
 }
@@ -105,4 +107,21 @@
 }
 .social_media .yt:hover{
     color: red;
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width:400px;
+    border:2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin:10px;
+    margin-left: 50px;
+}
+img{
+    width: 100%;
+    border-radius: 25px;
 }
